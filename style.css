@@ -7,49 +7,50 @@ body {
   color: DarkBlue;
   font-family: Arial;
   font-size:16px;
-  border: 3px solid Thistle;
+  /* border: 3px solid Thistle; */
   margin: 25px;
   padding: 25px;
   background-image: url(images/geometric-leaves.png);
 }
-/* header ul {
+header ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 header ul li {
   float: left;
-  width: 170px;
+  width: 175px;
   height: 40px;
   background-color: Thistle;
   opacity: .8;
   line-height: 40px;
   text-align: center;
-  font-family: Papyrus, Arial;
-  font-size: 30px;
-  font-weight: bold;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: normal;
   margin-right: 2px;
   margin-bottom: 2px;
 }
 header ul li a {
   text-decoration: none;
-  color: Black;
+  color: DarkBlue;
   display: block;
 }
 ul li ul li {
   display: none;
-  font-size: 16px;
+  font-size: 15px;
 }
 ul li:hover ul li {
   display: block;
-} */
+
+}
 header h1 {
   color: DarkMagenta;
   font-family: Papyrus, Arial;
   font-size:70px;
   font-weight: bold;
   text-align: center;
-  border: 5px dotted Violet;
+  /* border: 5px solid Violet; */
   margin-top: 0px;
   margin-bottom: 25px;
   margin-left: 350px;
