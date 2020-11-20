@@ -3,7 +3,7 @@
   font-size: 100%;
 }
 body {
-  background-color: LightGrey;
+  /* background-color: LightGrey; */
   color: DarkBlue;
   font-family: Arial;
   font-size:16px;
@@ -22,14 +22,17 @@ header ul li {
   width: 175px;
   height: 40px;
   background-color: Thistle;
-  opacity: .8;
   line-height: 40px;
   text-align: center;
   font-family: Arial;
   font-size: 15px;
   font-weight: normal;
   margin-right: 2px;
-  margin-bottom: 2px;
+}
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 4;
 }
 header ul li a {
   text-decoration: none;
@@ -54,7 +57,7 @@ header h1 {
   margin-top: 0px;
   margin-bottom: 25px;
   margin-left: 350px;
-  margin-right: 350px;
+  margin-right: 455px;
   padding: 10px;
 }
 h2 {
